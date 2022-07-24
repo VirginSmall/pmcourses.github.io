@@ -389,12 +389,88 @@ ul a:hover {
   font-size: 13px;
 }
 
+.know-about-coach {
+  background-color: #FFFF;
+  margin: 0px 50px;
+  padding: 0px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.know-about-coach-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.know-about-coach-content {
+  width: 90%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-area {
+  width: 25vw;
+}
+
+.know-about-coach-content-middle>img {
+  margin: 0px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  margin: 50px 0px;
+}
 
 /* Media Mobile */
 @media (max-width: 576px) {}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  .know-about-coach {
+    margin: 0px 20px;
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .know-about-coach-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .know-about-coach-content {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .know-about-coach-content-middle {
+    order: -1;
+    -webkit-order: -1;
+    margin-bottom: 20px;
+  }
+
+  .content-area {
+    width: auto;
+  }
+
+}
 
 @media (max-width: 992px) {
   .navbar-toggler {
@@ -494,7 +570,33 @@ ul a:hover {
   }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .know-about-coach {
+    margin: 0px 50px;
+    padding: 0px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .know-about-coach-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .know-about-coach-content {
+    width: 90%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}
 
 @media (min-width: 1400px) {
 
